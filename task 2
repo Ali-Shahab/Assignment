@@ -1,0 +1,8 @@
+x=float(input("Enter Number:"))
+if x>0:
+    print("Positive number entered")
+elif x<0:
+    print("Negative number entered")
+elif x==0:
+    print("Zero Entered")
+    
