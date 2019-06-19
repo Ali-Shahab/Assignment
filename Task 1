@@ -1,0 +1,3 @@
+x = float(input("Input Radius:"))
+area= str(a**2 * 3.142)
+print("Area of circle with radius",a,"is",area)
