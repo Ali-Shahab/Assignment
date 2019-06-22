@@ -1,0 +1,5 @@
+a=int(input("Enter Height in Cm:"))
+b=int(input("Enter Weight in Kg:"))
+c=a/100
+d=b/c**2
+print("Your BMI is",d)
