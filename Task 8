@@ -1,0 +1,6 @@
+b=(input("Enter character:"))
+if b=="a" or b=="e" or b=="o" or b=="u" or b=="i":
+    print("letter is vowel")
+elif b!="a" or b!="e" or b!="o" or b!="u" or b!="i":
+    
+    print("letter is not vowel")
