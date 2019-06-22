@@ -1,0 +1,6 @@
+a=float(input("Enter Numerator:"))
+b=float(input("Enter Denominator:"))
+if a % b == 0:
+    print(a,"is completely divisible by",b)
+elif a % b !=0:
+    print("not divisible")
