@@ -1,0 +1,4 @@
+a=int(input("Enter Height in Feet:"))
+b=a * 30.48
+
+print("There are",b,"Cm in",a,"feet")
