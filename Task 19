@@ -1,0 +1,6 @@
+a=str(input("Enter text:"))
+b= reversed(a)
+if list(a) == list(b):
+   print("Text",a,"is Palindrome")
+else:
+   print("Text",a,"is not Palindrome")
