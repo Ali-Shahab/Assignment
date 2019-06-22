@@ -1,0 +1,15 @@
+a = input("Enter Text: ")
+alphabets = digits = special = spaces = 0
+
+for i in range(len(a)):
+    if((a[i] >= 'a' and a[i] <= 'z') or (a[i] >= 'A' and a[i] <= 'Z')): 
+        alphabets = alphabets + 1 
+    elif(a[i] >= '0' and a[i] <= '9'):
+        digits = digits + 1
+    else:
+        special = special + 1
+a.count(' ') 
+print("Albhabets:  ", alphabets)
+print("Numbers:  ", digits)
+print("Special Characters:  ", special)
+print("Spaces:",a.count(' '))
