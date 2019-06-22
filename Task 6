@@ -1,0 +1,4 @@
+a=str(input("Enter String:"))
+b=int(input("How many copies of String you need:"))
+c= a * b
+print(a,"copies of",b, "are",c)
