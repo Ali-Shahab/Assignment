@@ -1,0 +1,4 @@
+a=int(input("Enter Magnitude of Triangle Base:"))
+b=int(input("Enter Magnitude of Triangle Height:"))
+c=str(1/2 * a * b)
+print("Area of a Triangle with Height",b,"is",c)
